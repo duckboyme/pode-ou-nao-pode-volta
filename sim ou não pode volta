@@ -1,0 +1,16 @@
+print('Programa para calcular se uma pessoa pode votar')
+print()
+
+nome = input('Entre com o nome da pessoa: ')
+print()
+
+a1 = int(input("Entre com o ano de nascimento: "))
+print()
+
+a2 = int(input("Entre com ano atual: "))
+print()
+
+idade = a2 - a1
+
+if idade > 16:
+    print(nome, 'pode votar')
